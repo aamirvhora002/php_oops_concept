@@ -1,7 +1,7 @@
 <?php
 class Fruit {
     // Properties
-    public $name,$color;
+    public $name, $nm, $color ,$cl;
 
    // Methods
    // Save set_color and get_color methods (mininize/less code)

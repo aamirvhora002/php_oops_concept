@@ -1,7 +1,7 @@
 <?php 
 class Fruit {
     // Properties
-    public $name;
+    public $name, $nm;
 
     // Methods
     function set_name($name) {

@@ -3,7 +3,7 @@
 //1. Inside the class (by adding set_name() method)
 
 class Fruit_One {
-    public $name;
+    public $name, $nm;
 
     function set_name($name) {
         return $this->nm = $name;
@@ -20,7 +20,7 @@ echo "<br><br><br>";
 //2. Outside the class (by directly changing the property value)
     // Create blank class
 class Fruit_Two {
-    
+    public $color, $naam;
 }
 
 $banana = new Fruit_Two();
